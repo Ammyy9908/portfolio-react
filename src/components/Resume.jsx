@@ -13,7 +13,7 @@ function Resume() {
                                     <h1 className="title" style={{"borderBottom":"4px solid aqua","display":"inline-block"}}>Education</h1>
                                 </div>
                                 <div className="column">
-                                <h2 className="title">Sir M. Vishweshraya Institute of Technology</h2>
+                                <h2 className="title">Sir M. Vishveshraya Institute of Technology</h2>
                             <p>Bachelor of Engineering in Information & Science</p>
                                 </div>
                             </div>
