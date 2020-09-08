@@ -5,30 +5,30 @@ function Navbar() {
         <div>
             <div className="navbar is-black is-fixed-top">
             <div className="navbar-brand">
-            <a className="navbar-item" href="">
+            <a className="navbar-item" href="#/">
             <strong>Sumit Kumar</strong>
             </a>
 
-            <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <div role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
-            </a>
+            </div>
         </div>
 
         <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item is-active" href="#home">
+    <div className="navbar-start">
+      <a className="navbar-item is-active" href="#home">
         Home
       </a>
 
-      <a class="navbar-item" href="#about">
+      <a className="navbar-item" href="#about">
         About
       </a>
-      <a class="navbar-item" href="#resume">
+      <a className="navbar-item" href="#resume">
         Resume
       </a>
-      <a class="navbar-item" href="#contact">
+      <a className="navbar-item" href="#contact">
         Contact
       </a>
     </div>
